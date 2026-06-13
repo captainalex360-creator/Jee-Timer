@@ -1,0 +1,6 @@
+{
+  "name": "JEE Question Timer",
+  "description": "An expressive, glowing, high-performance question countdown timer for JEE preparation with immediate tapping, real-time feedback, and session analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -31,10 +31,8 @@ jobs:
           node-version: 18
           cache: 'npm'
 
-            
-      - name: Install Dependencies
-              run: npm install --include=optional --platform=linux --arch=x64
-              
+                  - name: Install Dependencies
+        run: npm install --include=optional --platform=linux --arch=x64     
 
       - name: Build Web Application
         run: npm run build
